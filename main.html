@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/MainListeners.js" type="module"></script>
+    <title>Тестовое задание для ГК ХОСТ</title>
+</head>
+<body>
+<div class = "flex" style = "margin-top: 30px;">
+    <table border id = "consumersTable">
+        <caption>Потребители</caption>
+        <tbody>
+            <tr>
+                <th>Имя</th>
+                <th>Тип</th>
+                <th>Номер потребителя</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tbody>
+    </table>
+    <div class = "flex" style = "margin-top: 40px;">
+        <button id = "newConsumer">Добавить нового</button>
+    </div>
+    <div class = "flex filter">
+        <p>Фильтр:</p>
+        <button id = "filterJurist">Юридические лица</button>
+        <button id = "filterPhysical">Физические лица</button>
+        <button id = "cleanFilter">Сбросить фильтр</button>
+    </div>
+</div>
+</body>
+</html>
