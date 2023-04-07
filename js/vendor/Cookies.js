@@ -1,6 +1,3 @@
-/*
-    в классе Cookies собраны методы для работы с cookie
- */
 export default class Cookies{
 
     setCookie(name, value) {
@@ -16,7 +13,6 @@ export default class Cookies{
         date.setTime(date.getTime() - 1);
         document.cookie = name += "=; expires=" + date.toGMTString();
     }
-
     get_all_cookies() {
         let cookies = { };
         if (document.cookie && document.cookie != '') {

@@ -1,22 +1,11 @@
 import Error from '../vendor/Error.js';
 
-/*
-    класс Consumer является моделью потребителя, в конструкторе принимает набор его полей, а
-    в методе validate проверяет данные поля на соответствие требованиям
- */
-
 export default class Consumer {
-
     constructor(id, name, type, number) {
-
         this.id = id;
-
         this.name = name;
-
         this.type = type;
-
         this.number = number;
-
     }
 
     validate(){

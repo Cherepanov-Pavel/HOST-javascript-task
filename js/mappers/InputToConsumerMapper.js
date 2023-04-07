@@ -1,14 +1,7 @@
-/*
-    класс InputToConsumerMapper предназначен для преобразование данных из html inputов в объект Consumer
- */
 export default class InputToConsumerMapper {
-
     constructor(input, consumer) {
-
-        this.input = input; // данные в виде ассоциативного массива {'id': id,'name': name, 'type': type, 'number': number}
-
-        this.consumer = consumer; // класс Consumer
-
+        this.input = input;
+        this.consumer = consumer;
     }
 
     map(){
@@ -18,5 +11,4 @@ export default class InputToConsumerMapper {
         }
         return newConsumer;
     }
-
 }
